@@ -1,0 +1,4 @@
+rootProject.name = 'myapp'
+include 'myapp', 'aplugin', 'bplugin'
+project(':aplugin').projectDir = new File('../aplugin')
+project(':bplugin').projectDir = new File('../bplugin')
